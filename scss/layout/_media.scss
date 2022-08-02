@@ -1,0 +1,1114 @@
+@media (max-width: 1700px) {
+    .hero__like {
+        top: 425px;
+        right: 40px;
+        width: 180px;
+    }
+
+    .hero__mail1 {
+        top: 22px;
+        left: 58px;
+        width: 162px;
+    }
+
+    .hero__mail2 {
+        top: 24px;
+        width: 144px;
+    }
+
+    .hero__round1 {
+        top: -250px;
+        left: -148px;
+    }
+
+    .hero__round2 {
+        top: 185px;
+        width: 947px;
+    }
+
+    .hero__heart1 {
+        bottom: -260px;
+        left: -113px;
+        width: 152px;
+    }
+
+    .hero__heart2 {
+        bottom: -56px;
+    }
+
+    .distribution__inner {
+        max-width: 1463px;
+        height: auto;
+        background-repeat: round;
+    }
+
+    .distribution__mail {
+        left: -13px;
+        width: 225px;
+    }
+
+    .distribution__comment {
+        bottom: 95px;
+        right: 12px;
+        width: 184px;
+    }
+
+    .distribution__wrapper {
+        column-gap: 110px;
+    }
+
+    .mobifitness__info-like {
+        left: -28px;
+        width: 227px; 
+    }
+
+    .footer__left-bg {
+        width: 850px;
+        height: 850px;
+    }
+}
+
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .hero__inner {
+        padding: 140px 0 325px;
+    }
+
+    .hero__title {
+        font-size: 5.5rem;
+        line-height: 7rem;
+    }
+
+    .hero__heart1 {
+        bottom: -270px;
+        left: 37px;
+        width: 130px;
+    }
+
+    .hero__heart2 {
+        display: none;
+    }
+
+    .hero__mail1 {
+        width: 135px;
+    }
+
+    .hero__mail2 {
+        width: 120px;
+    }
+
+    .hero__like {
+        top: 375px;
+        right: 40px;
+        width: 160px;
+    }
+
+    .business__inner {
+        padding: 0 0 68px 100px;
+    }
+
+    .business__title {     
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .business__subtitle,
+    .location__subtitle {
+        font-size: 2rem;
+    }
+
+    .location {
+        padding: 150px 0 100px;
+    }
+
+    .location__right {
+        padding-top: 50px;
+    }
+
+    .about__inner {
+        column-gap: 50px;
+    }
+
+    .about__left {
+        padding: 180px 0 10px 100px;
+    }
+
+    .about__title {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .about__subtitle {
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 20px;
+    }
+
+    .about__right {
+        max-width: 590px;
+    }
+
+    .about__circle {
+        top: -272px;
+        left: -183px;
+        width: 850px;
+        height: 850px;
+    }
+
+    .about__bell {
+        top: -70px;
+        left: -70px;
+        width: 93px;
+    }
+
+    .about__comment {
+        top: -68px;
+        left: 305px;
+        width: 100px;
+    }
+
+    .about__louder {
+        bottom: -262px;
+        right: -4px;
+        width: 157px;
+    }
+
+    .distribution__title {
+        font-size: 5rem;
+        line-height: 7rem;
+        margin: 0 auto 50px auto;
+    }
+
+    .distribution__mail {
+        width: 170px;
+    }
+
+    .distribution__comment {
+        width: 130px;
+    }
+
+    .mobifitness__title {
+        font-size: 5rem;
+        line-height: 7rem;
+    }
+
+    .mobifitness__subtitle {
+        font-size: 2rem;
+    }
+
+    .mobifitness__info {
+        padding: 55px 0 100px;
+    }
+
+    .mobifitness__info-text {
+        font-size: 3rem;
+        margin-bottom: 35px;
+    }
+
+    .mobifitness__info-card-title {
+        font-size: 7rem;
+        line-height: 9rem;
+    }
+
+    .mobifitness__info-like {
+        top: 70px;
+        width: 190px;
+    }
+
+    .footer__left-title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .footer__left-subtitle {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .footer__left-bg {
+        width: 750px;
+        height: 750px;
+    }
+
+    .footer__left-heart {
+        bottom: -176px;
+        left: 226px;
+        width: 125px;
+    }
+
+    .footer__left-louder {
+        bottom: -411px;
+        left: -29px;
+        width: 177px;
+    }
+
+    .footer__card-img {
+        height: 200px;
+        margin-bottom: 25px;
+    }
+
+    .footer__card-text {
+        font-size: 2rem;
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    html {
+        font-size: 9px;
+    }
+
+    .hero__subtitle {
+        height: 85px;
+    }
+
+    .hero__like {
+        top: 303px;
+        right: 97px;
+        width: 130px;
+    }
+
+    .hero__round2 {
+        width: 750px;
+        top: 150px;
+        right: -300px;
+    }
+
+    .business__inner {
+        padding: 0 0 68px 80px;
+    }
+
+    .business__title {
+        max-width: 650px;
+    }
+
+    .location {
+        padding: 100px 0 100px;
+    }
+
+    .location__inner {
+        column-gap: 50px;
+    }
+
+    .location__left {
+        max-width: 530px;
+    }
+
+    .location__russia {
+        padding: 20px 30px;
+    }
+
+    .location__sng {
+        top: 230px;
+        padding: 20px 30px;
+    }
+
+    .about__left {
+        max-width: 600px;
+        padding: 180px 0 10px 80px;
+    }
+
+    .about__title {
+        margin-bottom: 25px;
+    }
+
+    .about__subtitle {
+        line-height: 3.2rem;
+        margin-bottom: 15px;
+    }
+
+    .about__right {
+        max-width: 475px;
+    }
+
+    .about__text-wrapper {
+        flex-wrap: wrap;
+    }
+
+    .about__text-3, .about__text-2, .about__text-1 {
+        width: auto;
+        padding: 30px;
+        height: max-content;
+    }
+
+    .about__text-2 {
+        width: 278px;
+        margin-top: 17px;
+        margin-left: 145px;
+    }
+
+    .about__text-3 {
+        margin-left: 30px;
+    }
+
+    .about__bell {
+        top: -47px;
+        left: -44px;
+        width: 65px;
+    }
+
+    .about__comment {
+        top: -16px;
+        left: 319px;
+        width: 75px;
+    }
+
+    .about__louder {
+        right: 117px;
+        width: 100px;
+        bottom: -276px;
+    }
+
+    .about__like {
+        bottom: -263px;
+        width: 85px;
+    }
+
+    .about__circle {
+        left: -206px;
+    }
+
+    .distribution__wrapper {
+        max-width: 900px;
+        column-gap: 50px;
+        margin: 0 auto 60px auto;
+    }
+
+    .distribution__mail {
+        width: 135px;
+    }
+
+    .distribution__comment {
+        width: 110px;
+    }
+
+    .distribution__btn {
+        padding: 22px 40px;
+    }
+
+    .mobifitness {
+        padding: 125px 0 125px;
+    }
+
+    .mobifitness__subtitle {
+        margin: 0 auto 35px auto;
+    }
+
+    .mobifitness__info-text {
+        margin-bottom: 15px;
+    }    
+
+    .mobifitness__info-card-title {
+        line-height: 8rem;
+    }
+
+    .mobifitness__info-like {
+        width: 150px;
+    }
+
+    .footer {
+        padding: 100px 0 80px;
+    }
+
+    .footer__left-heart {
+        width: 100px;
+    }
+
+    .footer__left-louder {
+        bottom: -376px;
+        width: 140px;
+    }
+
+    .footer__left-bg {
+        width: 700px;
+        height: 700px;
+    }
+
+    .footer__card {
+        width: 45%;
+        min-width: unset; 
+    }
+
+    .footer__card-img {
+        height: 150px;
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) {
+    html {
+        font-size: 7px;
+    }
+
+    .hero__mail1 {
+        width: 121px;
+    }
+
+    .hero__mail2 {
+        width: 100px;
+    }
+
+    .hero__heart1 {
+        width: 112px;
+    }
+
+    .hero__like {
+        width: 110px;
+    }
+
+    .hero__round2 {
+        width: 750px;
+        top: 150px;
+        right: -368px;
+        height: 670px;
+    }
+
+    .hero__subtitle {
+        height: 70px;
+    }
+
+    .business__title {
+        max-width: 500px;
+        margin-bottom: 25px;
+    }
+
+    .swiper {
+        margin-left: -300px;
+    }
+
+    .location {
+        padding: 100px 0 50px;
+    }
+
+    .about__inner {
+        column-gap: 30px;
+    }
+
+    .about__left {
+        max-width: 45%;
+        padding: 180px 0 10px 51px;
+    }
+
+    .about__right {
+        max-width: 49%;
+        padding: 81px 0 208px;
+        height: 850px;
+    }
+
+    .about__text-3, .about__text-2, .about__text-1 {
+        padding: 22px;
+    }
+
+    .about__text-2 {
+        margin-left: 100px;
+    }
+
+    .about__text-3 {
+        max-width: 315px;
+    }
+
+    .about__bell {
+        top: -39px;
+        left: -30px;
+        width: 55px;
+    }
+
+    .about__comment {
+        top: -23px;
+        left: 295px;
+        width: 65px;
+    }
+
+    .about__louder {
+        right: 144px;
+        width: 91px;
+        bottom: -266px;
+    }
+
+    .about__like {
+        bottom: -234px;
+        width: 70px;
+    }
+
+    .about__circle {
+        left: -207px;
+        width: 800px;
+        height: 800px;
+    }
+
+    .distribution__inner {
+        padding: 80px 30px 110px 30px;
+    }
+
+    .distribution__card {
+        max-width: 230px;
+    }
+
+    .distribution__mail {
+        width: 110px;
+    }
+
+    .distribution__comment {
+        width: 90px;
+    }
+
+    .mobifitness {
+        padding: 100px 0 100px;
+    }
+
+    .mobifitness__subtitle {
+        max-width: 550px;
+        margin: 0 auto 25px auto;
+    }
+
+    .mobifitness__title {
+        margin-bottom: 25px;
+    }
+
+    .mobifitness__info-wrapper {
+        max-width: 450px;
+    }
+
+    .mobifitness__info {
+        padding: 45px 0 100px;
+    }
+
+    .mobifitness__info-like {
+        width: 125px;
+    }
+
+    .footer__left-heart {
+        left: 193px;
+        width: 74px;
+    }
+
+    .footer__left-louder {
+        bottom: -371px;
+        width: 117px;
+    }
+
+    .footer__left-bg {
+        width: 610px;
+        height: 610px;
+    }
+
+    .footer__left-title {
+        margin-bottom: 25px;
+    }
+
+    .footer__card-img {
+        height: 130px;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) {
+    html {
+        font-size: 6px;
+    }
+
+    .hero__inner {
+        padding: 140px 0 140px;
+    }
+
+    .hero__mail2 {
+        display: none;
+    }
+
+    .hero__title-wrapper {
+        max-width: 560px;
+        margin: 0 auto 130px auto;
+    }
+
+    .hero__round2 {
+        width: 450px;
+        top: 184px;
+        right: -248px;
+        height: 450px;
+    }
+
+    .hero__like {
+        top: 289px;
+        right: 72px;
+        width: 85px;
+    }
+
+    .hero__heart1 {
+        bottom: -237px;
+        left: 37px;
+        width: 100px;
+    }
+
+    .hero__mail1 {
+        top: 22px;
+        left: 133px;
+        width: 90px;
+    }
+
+    .business__inner {
+        padding: 0 0 48px 40px;
+    }
+
+    .business__title {
+        max-width: 430px;
+        margin-bottom: 20px;
+    }
+
+    .location {
+        padding: 70px 0 0;
+    }
+
+    .location__inner {
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .location__sng {
+        bottom: 40px;
+        left: 20px;
+        top: unset;
+    }
+
+    .location__right {
+        padding-left: 40px;
+    }
+
+    .location__title {
+        margin-bottom: 16px;
+    }
+
+    .about__inner {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+
+    .about__title {
+        margin-bottom: 16px;
+    }
+
+    .about__left {
+        max-width: 100%;
+        padding: 70px 0 10px 40px;
+    }
+
+    .about__right {
+        max-width: 100%;
+        padding: 0;
+        height: 760px;
+    }
+
+    .about__circle {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 800px;
+        height: 800px;
+    }
+
+    .about__text-1 {
+        margin-left: 85px;
+    }
+
+    .about__text-wrapper {
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        column-gap: 0;
+        max-width: 450px;
+        margin: 215px auto 31px auto;
+    }
+
+    .about__text-3, .about__text-2, .about__text-1 {
+        padding: 18px 25px;
+    }
+
+    .about__text-1 {
+        margin: 0 20px 0 30px;
+    }
+
+    .about__text-2 {
+        margin-left: 0;
+        max-width: 165px;
+    }
+
+    .about__text-3 {
+        max-width: 180px;
+        margin: 0 auto;
+    }
+
+    .about__louder {
+        right: 66px;
+        width: 91px;
+        bottom: -282px;
+    }
+
+    .about__like {
+        bottom: -285px;
+        width: 90px;
+        left: 86px;
+    }
+
+    .about__bell {
+        top: -47px;
+        left: -6px;
+        width: 62px;
+    }
+
+    .about__comment {
+        top: -69px;
+        width: 75px;
+    }
+
+    .distribution__title {
+        margin: 0 auto 41px auto;
+    }
+
+    .distribution__comment {
+        bottom: 60px;
+        right: 12px;
+        width: 76px;
+    }
+
+    .distribution__wrapper {
+        column-gap: 25px;
+        margin: 0 auto 42px auto;
+    }
+
+    .distribution__card {
+        max-width: 200px;
+    }
+
+    .mobifitness__title {
+        margin-bottom: 20px;
+    }
+
+    .mobifitness__subtitle {
+        max-width: 440px;
+        margin: 0 auto 20px auto;
+    }
+
+    .mobifitness__info {
+        padding: 25px 0 70px;
+    }
+
+    .mobifitness__info-like {
+        display: none;
+    }
+
+    .mobifitness__info-wrapper {
+        max-width: 380px;
+    }
+
+    .mobifitness__info-text {
+        margin-bottom: 10px;
+    }
+
+    .mobifitness__info-card-title {
+        line-height: 7rem;
+    }
+
+    .footer__inner {
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 40px;
+    }
+
+    .footer__left {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .header {
+        padding-top: 36px;
+    }
+
+    .header__logo {
+        width: 126px;
+        height: 43px;
+    }
+
+    .header__btn {
+        padding: 8px 12px;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+
+    .hero__inner {
+        padding: 120px 0 120px;
+    }
+
+    .hero__mail1 {
+        top: 22px;
+        left: 74px;
+        width: 82px;
+        height: 66px;
+    }
+
+    .hero__round1 {
+        top: -258px;
+        left: -208px;
+    }
+
+    .hero__title {
+        font-size: 5rem;
+        line-height: 6.5rem;
+    }
+
+    .hero__like {
+        top: 328px;
+        right: 72px;
+        width: 85px;
+        height: 64px;
+    }
+
+    .hero__heart1 {
+        bottom: -237px;
+        left: 37px;
+        width: 100px;
+        height: 83px;
+    }
+
+    .hero__heart1 {
+        bottom: -148px;
+        left: 37px;
+        width: 100px;
+        height: 83px;
+    }
+
+    .hero__round2 {
+        width: 450px;
+        top: 241px;
+        right: -232px;
+        height: 450px;
+    }
+
+    .business__inner {
+        padding: 0 0 48px 0px;
+    }
+
+    .business__title {
+        font-size: 4rem;
+        line-height: 5rem;
+        margin-bottom: 16px;
+    }
+
+    .business__subtitle {
+        font-size: 2.2rem;
+        line-height: 3rem;
+    }
+
+    .location__russia {
+        padding: 12px 20px;
+    }
+
+    .location__sng {
+        bottom: 17px;
+        padding: 12px 20px;
+    }
+
+    .location__right {
+        padding-left: 0;
+    }
+
+    .location__title {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+
+    .about__left {
+        max-width: 100%;
+        padding: 70px 0 10px;
+    }
+
+    .about__right {
+        height: unset;
+        padding-bottom: 160px;
+    }
+
+    .about__text-wrapper {
+        width: auto;
+        margin: 185px 0 0 0;
+    }
+
+    .about__text-1 {
+        margin: -100px 0 0 50px;
+    }
+
+    .about__text-2 {
+        margin: -80px 0 25px 17px;
+    }
+
+    .about__comment {
+        top: -163px;
+        left: 55%;
+        width: 81px;
+        height: 61px;
+    }
+
+    .about__circle {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 557px;
+    height: 557px;
+    }
+
+    .about__bell {
+        top: -162px;
+        left: 19px;
+        width: 71px;
+    }
+
+    .about__louder {
+        right: -12px;
+        width: 98px;
+        bottom: -137px;
+        height: 93px;
+    }
+
+    .about__like {
+        bottom: -183px;
+        width: 79px;
+        height: 58px;
+        left: 41px;
+    }
+
+    .distribution__mail {
+        display: none;
+    }
+
+    .distribution__comment {
+        display: none;
+    }
+
+    .distribution__inner {
+        padding: 40px 10px 60px 10px;
+        background: url(./assets/img/destrib-bg-small.png);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .distribution__wrapper {
+        max-width: 900px;
+        row-gap: 24px;
+        margin: 0 auto 40px auto;
+    }
+
+    .distribution__title {
+        max-width: 575px;
+        font-size: 4rem;
+        line-height: 6rem;
+        margin: 0 auto 41px auto;
+    }
+
+    .distribution__card:last-child {
+        max-width: 200px;
+    }
+
+    .distribution__btn {
+        padding: 16px 16px;
+    }
+
+    .mobifitness {
+        padding: 70px 0 70px;
+    }
+
+    .mobifitness__title {
+        margin-bottom: 16px;
+    }
+
+    .mobifitness__info {
+        background: url(./assets/img/mobilefitness-bg-small.png);
+        background-size: 100% 100%;
+        padding: 31px 35px 28px;
+    }
+
+    .mobifitness__info-wrapper {
+        max-width: 300px;
+    }
+
+    .mobifitness__info-card-title {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+
+    .mobifitness__info-like {
+        left: -22px;
+        top: -39px;
+        display: block;
+        width: 91px;
+        height: 96px;
+    }
+
+    .mobifitness__info-card-subtitle {
+        font-size: 2.5rem;
+        line-height: 3.6rem;
+    }
+
+    .mobifitness__info-text {
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        padding: 100px 0 90px;
+    }
+
+    .footer__inner {
+        padding-left: 0;
+    }
+
+    .footer__left-bg {
+        left: 50%;
+        transform: translateX(-50%);
+        width: 804px;
+        height: 804px;
+    }
+
+    .footer__left-heart {
+        right: 43px;
+        left: unset;
+        top: -123px;
+        width: 110px;
+        height: 110px;
+    }
+
+    .footer__left-title {
+        margin-bottom: 16px;
+    }
+
+    .footer__left {
+        margin-bottom: 70px;
+    }
+
+    .footer__left-louder {
+        display: none;
+    }
+
+    .footer__right {
+        width: 100%;
+        flex-direction: column;
+        row-gap: 70px;
+    }
+
+    .footer__card {
+        width: 100%;
+    }
+
+    .footer__card-img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .footer__card-text {
+        font-size: 3rem;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+.distribution {
+    &__inner {
+        position: relative;
+        margin: 0 auto;
+        padding: 80px 0 110px;
+        max-width: 1463px;
+        background: url(./assets/img/destrib-bg.png);
+        background-repeat: round;
+    }
+
+    &__title {
+        max-width: 1006px;
+        margin: 0 auto 70px auto;
+        font-size: 7rem;
+        line-height: 9rem;
+        text-align: center;
+        color: $font-light;
+    }
+
+    &__wrapper {
+        max-width: 1031px;
+        margin: 0 auto 80px auto;
+        display: flex;
+        justify-content: center;
+        column-gap: 135px;
+        row-gap: 60px;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        max-width: 250px;
+        &:last-child {
+            max-width: 386px;
+        }
+        &:nth-child(4) {
+            max-width: 245px;
+        }
+    }
+
+    &__card-title {
+        text-align: center;
+        font-size: 3rem;
+        line-height: 4.4rem;
+        color: $font-orange;
+        margin-bottom: 16px;
+    }
+
+    &__card-subtitle {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        text-align: center;
+        color: $font-light;
+    }
+
+    &__btn {
+        display: block;
+        margin: 0 auto;
+        padding: 24px 48px;
+        background: linear-gradient(91.65deg, #93E736 -28.46%, #13A16C 105.66%);
+        border-radius: 50px;
+        font-size: 2.4rem;
+        line-height: 3rem;
+        color: $font-light;
+        border: none;
+        outline: none;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    &__mail {
+        position: absolute;
+        top: 42px;
+        left: -88px;
+        width: 292px;
+        height: 249px;
+        background: url(./assets/img/distr-mail.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+    }
+
+    &__comment {
+        position: absolute;
+        bottom: 110px;
+        right: -28px;
+        width: 221px;
+        height: 166px;
+        background: url(./assets/img/distr-comment.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        z-index: 1;
+    }
+}

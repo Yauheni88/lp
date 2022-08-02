@@ -1,0 +1,31 @@
+.header {
+    padding-top: 40px;
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        background: url(./assets/img/logo.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 179px;
+        height: 60px;
+    }
+
+    &__btn {
+        padding: 16px 24px;
+        background: linear-gradient(91.65deg, #93E736 -28.46%, #13A16C 105.66%);
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        font-size: 1.8rem;
+        line-height: 2rem;
+        color: $font-light;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}
+
