@@ -1281,6 +1281,9 @@ main {
     width: 804px;
     height: 804px;
   }
+  .footer__left-title {
+    max-width: 80%;
+  }
   .footer__left-louder {
     display: none;
   }
@@ -1510,6 +1513,7 @@ main {
     height: 110px;
   }
   .footer__left-title {
+    max-width: unset;
     margin-bottom: 16px;
   }
   .footer__left {
