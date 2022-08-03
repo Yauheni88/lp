@@ -1275,6 +1275,32 @@ main {
     width: 100%;
     max-width: 100%;
   }
+  .footer__left-bg {
+    left: 50%;
+    transform: translateX(-50%);
+    width: 804px;
+    height: 804px;
+  }
+  .footer__left-louder {
+    display: none;
+  }
+  .footer__left-heart {
+    display: none;
+  }
+  .footer__right {
+    margin-top: 60px;
+  }
+  .footer__card-img {
+    height: auto;
+    max-width: 100%;
+  }
+  .footer__card:first-child .footer__card-img {
+    max-height: 177px;
+  }
+  .footer__card-text {
+    max-width: unset;
+    text-align: center;
+  }
 }
 @media (max-width: 575.98px) {
   .header {
