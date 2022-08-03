@@ -1298,7 +1298,7 @@ main {
     max-width: 100%;
   }
   .footer__card:first-child .footer__card-img {
-    max-height: 177px;
+    max-height: 169px;
   }
   .footer__card-text {
     max-width: unset;
@@ -1525,6 +1525,7 @@ main {
   .footer__right {
     width: 100%;
     flex-direction: column;
+    margin-top: 0;
     row-gap: 70px;
   }
   .footer__card {
@@ -1536,6 +1537,9 @@ main {
   }
   .footer__card-text {
     font-size: 3rem;
+  }
+  .footer__card:first-child .footer__card-img {
+    max-height: unset;
   }
 }
 
