@@ -1276,7 +1276,7 @@ main {
     max-width: 100%;
   }
   .footer__left-bg {
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     width: 804px;
     height: 804px;
